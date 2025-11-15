@@ -18,3 +18,12 @@
   background: #7c7272;
   padding: 6px 10px;
 }
+#fontmasti {
+    background-color: lightblue;
+}
+.header {
+    font: bolder 30px Arial, impact, sans-serif;
+    color: #f3f3f3;
+    text-align: center;
+    background-color: rgb(84, 87, 198);
+}
