@@ -27,3 +27,9 @@
     text-align: center;
     background-color: rgb(84, 87, 198);
 }
+.babbu {
+    font: bolder 50px Arial, impact, sans-serif;
+    color: #f3f3f3;
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+}
