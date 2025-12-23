@@ -6,4 +6,4 @@ console.log("before swapping : a =",a ,"b =",b);
 var temp =a;
 a =b;
 b =temp;
-console.log("after swapping : a =",a ,"b =",b);    
+console.log("after swapping : a =",a ,"b =",b);
