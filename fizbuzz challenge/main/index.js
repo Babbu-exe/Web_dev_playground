@@ -1,6 +1,7 @@
 var output =[];
 var count =1;
 function fizbuzz(){
+while(count <=100){
     if(count %3 === 0 && count %5 === 0){
         output.push("fizzbuzz");
     }
@@ -12,7 +13,8 @@ function fizbuzz(){
     }
     else{
         output.push(count);
-    }
+    }   
     count++;
-        console.log(output);   
-}   
+   }
+return output;
+}
