@@ -1,0 +1,38 @@
+1. Essential Element Selection
+
+querySelector(selector): Returns the first element matching a CSS selector.
+
+querySelectorAll(selector): Returns a static NodeList of all matching elements.
+
+getElementById(id): The fastest way to select a single unique element by its ID.
+
+getElementsByClassName / TagName: Returns a live HTMLCollection that updates automatically
+                                     if the DOM changes. 
+
+
+
+2. Manipulation & Performance
+
+Updating the DOM frequently can cause performance bottlenecks like "reflow" and "repaint". 
+
+innerHTML vs. textContent: 
+innerHTML parses HTML tags but is a security risk (XSS); 
+textContent is faster and safer as it only handles plain text.
+
+Creating Elements: 
+Use document.createElement('tag') followed by appendChild() or append() 
+to add them to the page.
+
+
+Class Handling: Use element.classList.add(), .remove(), or .toggle()
+ for cleaner style management than modifying element.className directly.
+
+
+
+5. Critical Differences to Memorize
+
+Feature 	    HTMLCollection	        NodeList
+Methods 	    getElementsBy...	    querySelectorAll
+Live?	        Always live	            Usually static
+Iteration	    No forEach support	    Supports forEach
+Contents	    Elements only	        Elements, text, comments
